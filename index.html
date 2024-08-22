@@ -1,60 +1,54 @@
 <!doctype html>
 <html lang="en">
   <head>
-  	<title>Rafie Tools</title>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="src/css/style.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
-		
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/style.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
+
+    <title>Rafie Achmad Fahrezi</title>
   </head>
-  <body>
-		
-		<div class="wrapper d-flex align-items-stretch">
-			<nav id="sidebar">
-				<div class="custom-menu">
-					<button type="button" id="sidebarCollapse" class="btn btn-primary">
-	          <i class="fa fa-bars"></i>
-	          <span class="sr-only">Toggle Menu</span>
-	        </button>
-        </div>
-				<div class="p-4 pt-5">
-		  		<h1><a href="https://rafie.me/tools" class="logo">Alat</a></h1>
-	        <ul class="list-unstyled components mb-5">
-                 <li>
-	              <a href="https://rafie.me/tools">Dashboard</a>
-	          </li>
-	          <li>
-              <a href="https://rafie.me/tools/dl">Video/Audio Downloader</a>
-	          </li>
-	          <li>
-              <a href="https://rafie.me">Contact</a>
-	          </li>
-	        </ul>
-
-	        <div class="footer">
-	        	<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
-						  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-	        </div>
-
-	      </div>
-    	</nav>
-        
-        <!-- Page Content  -->
-      <div id="content" class="p-4 p-md-5 pt-5">
-       <br><br>
-        <h2 class="mb-4">Rafie Alat</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <body class="theBackground">
+      <div class="appShortcut">
+        <img src="src/img/logo.png" alt="logo" width="48" height="48" onclick="return openApp();" title="Open Window">
       </div>
-		</div>
+    <div class="theWindow">
+        <div class="topBar">
+            <img class="logo" src="src/img/logo.png" alt="logo" width="20" height="20">
+            <p class="title">My Web Profile</p>
+            <div class="buttons">
+                <img class="minimize" src="src/img/minimize.png" alt="minimize" onclick="return closeApp();">
+                <img class="maximize" src="src/img/maximize.png" alt="maximize">
+                <img class="exit" src="src/img/exit.png" alt="exit" onclick="return closeApp();" title="Close Button">
+            </div>
+        </div>
+        <div class="main">
+            <div class="title">
+                <small>Hello, my name is</small>
+                <h1>Rafie <br>Achmad</br>Fahrezi</h1>
+                <p>Web Developer</p>
+                <div class="socials">
+                    <a href="https://fb.me/rafie.ach6" class="h4 mx-1 text-secondary" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://instagram.com/rafiedotid" class="h4 mx-1 text-secondary" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://tiktok.com/@rafiedotid" class="h4 mx-1 text-secondary" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://wa.me/6281291051305" class="h4 mx-1 text-secondary" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+                <div class="portfolio">
+                    <small class="title">Mirai Store, Jual Followers & Aplikasi Premium Murah</small>
+                    <a class="btn" href="https://ygystore.my.id">Click here!</a>
+                    <div class="portofolio">
+                    <small class="title">Video/Audio Downloader</small>
+<a class="btn" href="tools">Click here!</a>
+                </div>
+                </div>
+                </div>
+            <img src="src/img/ayanorafi.png" alt="Rafie" width="295">
+        </div>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="src/js/script.js"></script>
   </body>
 </html>
