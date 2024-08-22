@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Video/Audio Downloader</title>
+
+<style>
+.skills .title {
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 12px;
+}
+
+.socials a, .skills i {
+    color: #464646;
+    margin-right: 5px;
+    font-size: 23px;
+}
+</style>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+  <link rel="stylesheet" type="text/css" href="../../src/css/style.cs">
+
+
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+  
+  <!--Add Firebase SDK(if you want to host in firebase-->
+
+ 
+</head>
+
+<body>
+
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar">
+				<div class="custom-menu">
+					<button type="button" id="sidebarCollapse" class="btn btn-primary">
+	          <i class="fa fa-bars"></i>
+	          <span class="sr-only">Toggle Menu</span>
+	        </button>
+        </div>
+				<div class="p-4 pt-5">
+		  		<h1><a href="https://rafie.me/tools" class="logo">Alat</a></h1>
+	        <ul class="list-unstyled components mb-5">
+                 <li>
+	              <a href="https://rafie.me/tools">Dashboard</a>
+	          </li>
+	          <li>
+              <a href="https://rafie.me/tools/dl">Video/Audio Downloader</a>
+	          </li>
+	          <li>
+              <a href="https://rafie.me">Contact</a>
+	          </li>
+	        </ul>
+
+	        <div class="footer">
+	        	<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
+						  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+	        </div>
+
+	      </div>
+    	</nav>
+
+ <div id="content" class="p-4 p-md-5 pt-5">
+
+       <br><br>
+
+    <div class="card">
+
+      <div class="card-header btn btn-primary btn-block click-btn-down">
+
+        <h5 style="color:#fff">Video/Audio Downloader</h5>
+
+      </div>
+
+      <div class="card-body">
+
+        <div class="row">
+
+          <div class="col-md-12">
+
+            <div class="form-group">
+          
+              <label class="text-weight"><b>Enter Valid Link:</b></label>
+
+              <input type="txt" name="link" class="form-control link" required>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <form class="form-download">
+
+          <div class="row">
+
+            <div class="col-md-12">
+
+              <div class="form-group">
+
+                <label class="text-weight"><b>Select type:</b></label>
+
+                <select class="form-control formte" required>
+
+                  <option selected disabled>Select Quality/Format</option>
+
+                  <option value="mp3">MP3</option>
+
+                 <option value="webm_audio">WEBM</option>
+
+                  <option value="flac">FLAC</option>
+
+                  <option value="360">MP4 (360p)</option>
+
+                  <option value="480">MP4 (480p)</option>
+
+                  <option value="720">MP4 (720p)</option>
+
+                  <option value="1080">MP4 (1080p)</option>
+
+                  <option value="4k">WEBM (4K)</option>
+
+                  <option value="8k">WEBM (8K)</option>
+
+                </select>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-md-12">
+
+              <div class="form-group mt-4 download-video">
+
+                <button class="btn btn-primary btn-block click-btn-down" type="submit">Convert</button>
+                
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </form>
+        <div>
+    <div class="card">
+
+      <div class="card-header btn btn-primary btn-block click-btn-down">
+
+        <h5 style="color:#fff">Supported Sites:</h5>
+
+      </div>
+
+      <div class="card-body">
+
+        <div class="row">
+
+          <div class="col-md-12">
+
+<div class="skills">
+<center>
+<i class='fab fa-facebook' style='font-size:48px;'></i>
+<i class='fab fa-twitter' style='font-size:48px;'></i>
+<i class='fab fa-soundcloud' style='font-size:48px;'></i>
+<i class='fab fa-youtube' style='font-size:48px;'></i>
+<i class='fab fa-twitch' style='font-size:48px;'></i>
+<i class='fab fa-tiktok' style='font-size:48px;'></i>
+<i class='fab fa-imdb' style='font-size:48px;'></i>
+<i class='fab fa-vimeo' style='font-size:48px;'></i>
+</center>
+            
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+
+<script type="text/javascript">
+
+  $(".click-btn-down").click(function(){
+
+      var link = $(".link").val();
+
+    var fromate = $(".formte").children("option:selected").val();
+
+    var src =""+link+"="+fromate+"";
+
+    downloadVideo(link,fromate);
+
+  });
+
+  function downloadVideo(link,fromate) {
+
+      $('.download-video').html('<iframe style="width:100%;height:60px;border:0;overflow:hidden;" scrolling="no" src="https://loader.to/api/button/?url='+link+'&f='+fromate+'"></iframe>');
+
+  }
+
+</script>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+
+</html>
